@@ -15,3 +15,7 @@ cplex/
 .settings/
 .project
 .classpath
+# CPLEX binaries - trop lourd pour Git
+cplex_studio*.bin
+opl/
+cpoptimizer/
