@@ -1,0 +1,17 @@
+# CPLEX Installation - fichiers binaires lourds
+cplex_studio*.bin
+opl/
+cpoptimizer/
+cplex/
+
+# Fichiers Java Runtime
+**/jre/
+
+# Bibliothèques partagées
+*.so
+*.dll
+
+# Fichiers temporaires Eclipse
+.settings/
+.project
+.classpath
