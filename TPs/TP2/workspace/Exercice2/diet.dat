@@ -1,0 +1,31 @@
+/*********************************************
+ * OPL 22.1.1.0 Data
+ * Author: hathouti
+ * Creation Date: 19 nov. 2025 at 19:35:45
+ *********************************************/
+
+ 
+ /***** diet.dat *****/
+
+/* Nombre d'éléments nutritifs */
+m = 3;
+
+/* Nombre d'aliments */
+n = 3;
+
+/* Prix unitaire de chaque aliment (c[j]) */
+c = [15, 17, 16];
+
+/* Matrice des quantités nutritionnelles (q[i][j])
+   q[i][j] = quantité du nutriment i contenue dans une unité de l'aliment j */
+q = [
+  [8, 13, 7],   /* Nutriment 1 dans chaque aliment */
+  [12, 7, 3],   /* Nutriment 2 dans chaque aliment */
+  [12, 21, 8]   /* Nutriment 3 dans chaque aliment */
+];
+
+/* Quantités minimales requises de chaque nutriment (d[i]) */
+d = [8, 7, 6];
+
+
+
