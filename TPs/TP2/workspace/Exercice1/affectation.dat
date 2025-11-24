@@ -1,0 +1,32 @@
+/*********************************************
+ * OPL 22.1.1.0 Data
+ * Author: hathouti
+ * Creation Date: 19 nov. 2025 at 11:55:13
+ *********************************************/
+
+ /***** affectation.mod *****/
+ 
+ Ouvriers = {"O1", "O2", "O3", "O4"};
+ Taches = {"T1", "T2", "T3", "T4"};
+ 
+ /* Matrice d'efficacité (Eff[i][j])
+    Une valeur numérique représente l'efficacité,
+    même si la tâche n'est pas autorisée (elle sera bloquée par Qual) */
+ 
+ Eff = [
+ 	[45, 0, 0, 30],
+ 	[50, 55, 15, 0],
+ 	[0, 60, 25, 75],
+ 	[45, 0, 0, 35],
+ ];
+
+/* Matrice de qualification (Qual[i][j])
+   1 = l'ouvrier est quailfié, 0 = non qualifié */
+
+ Qual = [
+ 	[1, 0, 0, 1],
+ 	[1, 1, 1, 0],
+ 	[0, 1, 1, 1],
+ 	[1, 0, 0, 1],
+ ];
+ 
